@@ -5,7 +5,7 @@ print("TO START INSTALL CLICK ENTER")
 input()
 
 print("INSTALLING PACKAGES")
-os.system("sudo pacman -S neofetch python-pip zsh flatpak firefox cups sane xsane code htop neovim mpv okular curl skanlite")
+os.system("sudo pacman -S neofetch python-pip zsh flatpak firefox cups sane xsane code htop neovim mpv curl skanlite kde-applications")
 print("PACKAGES INSTALL SUCCICES!")
 print("CONFIGURATE NEOFETCH")
 os.system("sudo mv date/neo/neofetch /usr/bin/")
